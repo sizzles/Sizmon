@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "exports": {
+    "Sizmon.Agent.BusinessService/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Sizmon.Agent.BusinessService.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Sizmon.Agent.BusinessService.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Sizmon.Agent.BusinessService.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Sizmon.Domain/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Sizmon.Domain.dll": {}
+      },
+      "runtime": {
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "bin/Debug/Sizmon.Domain.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Sizmon.Domain.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
