@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Drive\IDriveMonitor.cs" />
     <Compile Include="Drive\DriveMonitor.cs" />
+    <Compile Include="Process\IProcessMonitor.cs" />
+    <Compile Include="Process\ProcessMonitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
